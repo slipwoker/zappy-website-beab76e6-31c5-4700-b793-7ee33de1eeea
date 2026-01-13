@@ -1,0 +1,52 @@
+# Clean URL redirects for Render static hosting
+# These rewrite rules show clean URLs to users while serving .html files
+
+/index.html  /index-html.html  200
+/index-1.html  /index-1-html.html  200
+/Site Map.html  /site-map-html.html  200
+/Terms of Use.html  /terms-of-use-html.html  200
+/Jobs.html  /jobs-html.html  200
+/contact-us.html  /contact-us-html.html  200
+/links.html  /links-html.html  200
+/Insurance.html  /insurance-html.html  200
+/Calculators.html  /calculators-html.html  200
+/faq.html  /faq-html.html  200
+/about-us.html  /about-us-html.html  200
+/Second Mortgage.html  /second-mortgage-html.html  200
+/Mortgage for any purpose.html  /mortgage-for-any-purpose-html.html  200
+/Second Mortgage faq.html  /second-mortgage-faq-html.html  200
+/refinance.html  /refinance-html.html  200
+/refinance cala.html  /refinance-cala-html.html  200
+/refinance the mortgage.html  /refinance-the-mortgage-html.html  200
+/Mortgage.html  /mortgage-html.html  200
+/Approval in principle.html  /approval-in-principle-html.html  200
+/Banking Tender.html  /banking-tender-html.html  200
+/Buy or rent.html  /buy-or-rent-html.html  200
+/faq first buyers.html  /faq-first-buyers-html.html  200
+/Tips for new mortgage.html  /tips-for-new-mortgage-html.html  200
+/Personal Mortgage Guide.html  /personal-mortgage-guide-html.html  200
+/Basic mortgage guide.html  /basic-mortgage-guide-html.html  200
+/faq secend buyers.html  /faq-secend-buyers-html.html  200
+/History of Israel.html  /history-of-israel-html.html  200
+/Selling Property.html  /selling-property-html.html  200
+/Benefits of investing in real estate.html  /benefits-of-investing-in-real-estate-html.html  200
+/Banking Tender why.html  /banking-tender-why-html.html  200
+/Real estate advice.html  /real-estate-advice-html.html  200
+/Group Buying.html  /group-buying-html.html  200
+/Tama.html  /tama-html.html  200
+/Financing Investment.html  /financing-investment-html.html  200
+/Bank advice.html  /bank-advice-html.html  200
+/Mortgage Track.html  /mortgage-track-html.html  200
+/privacy  /privacy.html  200
+/accessibility  /accessibility.html  200
+/terms  /terms.html  200
+
+# Legal pages - redirect old .html URLs to friendly URLs
+/privacy.html  /privacy  301
+/accessibility.html  /accessibility  301
+/terms.html  /terms  301
+
+/  /index.html  200
+
+# 404 fallback
+/*  /index.html  404

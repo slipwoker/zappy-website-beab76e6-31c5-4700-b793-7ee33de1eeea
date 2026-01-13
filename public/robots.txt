@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://triple-a-beab76e6.zappy5.app/sitemap.xml
